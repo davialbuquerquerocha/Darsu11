@@ -11,7 +11,7 @@ int main (void)
         printf("b:");
         scanf("%d", &b);
     } while (b < 0);
-    printf("aˆb = %d\n"), (int)pow(a, b);
+    printf("aˆb = %d\n", (int)pow(a, b));
     return 0;
     }
     
