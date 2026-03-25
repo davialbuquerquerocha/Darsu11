@@ -10,8 +10,11 @@ int main (void)
     do {
         printf("b:");
         scanf("%d", &b);
+        if (b<0) {
+            printf ("b cannot be negative you jirk\n");
+        }
     } while (b < 0);
-    printf("aˆb = %d\n", (int)pow(a, b));
+    printf("a^b = %d\n", (int)pow(a, b));
     return 0;
     }
     
