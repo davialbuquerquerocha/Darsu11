@@ -1,18 +1,25 @@
 #include <stdio.h>
 
 int main(void){
-    int a, b;
+    double a, b;
 
     do {
         printf("a:");
-        scanf("%d", &a);
+        scanf("%lf", &a);
         
         printf("b:");
-        scanf("%d", &b);
+        scanf("%lf", &b);
     } while (b == 0);
     
-    printf("a/b = %d\n", a/b);
+    char y[64] = a/b;
+    for (int i = 64; i >= 0; i--){
+        if (y[i] == 44){
+            printf y[i];
+        } else {
+            if ()
+        }
+    }
     
     return 0; 
 
-    }
+}
